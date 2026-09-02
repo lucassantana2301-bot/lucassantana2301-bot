@@ -4,7 +4,7 @@
 
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=E11D48&center=true&vCenter=true&width=700&lines=Software+Engineer+%7C+Creative+Front-End+Developer;Especialista+em+Next.js%2C+React+%26+High-Performance+UI;Desenvolvendo+Arquiteturas+Escal%C3%A1veis+%26+Web+3D" alt="Typing Banner" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=21&duration=3500&pause=1000&color=E11D48&center=true&vCenter=true&width=750&lines=Software+Engineer+%7C+Data+Engineer+%7C+AI+Specialist;Engenharia+de+Dados%2C+Intelig%C3%AAncia+Artificial+%26+Data+Analytics;Full-Stack+Web+%7C+Next.js%2C+Python+%26+Modelos+de+IA;Transformando+Dados+brutos+em+Insights+%26+Produtos+de+Alto+Impacto" alt="Typing Banner" />
   </a>
 </h1>
 
@@ -23,11 +23,12 @@
 
 ## ⚡ Sobre Mim
 
-Sou um **Engenheiro de Software** com foco em criar aplicações web de **alta performance**, **design refinado** e **arquitetura escalável**. Minha paixão é unir engenharia de código precisa com UI/UX moderna, entregando experiências rápidas, responsivas e visualmente marcantes.
+Sou um **Engenheiro de Software** especializado em **Engenharia de Dados**, **Análise de Dados** e **Inteligência Artificial**. Desenvolvo sistemas escaláveis, pipelines de dados inteligentes e interfaces modernas integradas a modelos de IA para transformar grandes volumes de informação em decisões estratégicas e produtos de alto valor.
 
-- ⚙️ **Foco Principal:** Front-End Avançado & Full-Stack JS (React, Next.js, Node.js, TypeScript).
-- 🎨 **Diferencial:** Animações a 60fps (Framer Motion / GSAP), otimização de Core Web Vitals e experiências web imersivas.
-- 💡 **Mindset:** *"Código limpo atrai desenvolvedores. UI incrível atrai clientes. Performance retém ambos."*
+- 🤖 **Inteligência Artificial & Data Science:** Construção e integração de modelos generativos (LLMs), Machine Learning, Visão Computacional e automação inteligente.
+- 📊 **Engenharia & Análise de Dados:** Criação de pipelines ETL/ELT robustos, modelagem de dados, análise preditiva e dashboards de Business Intelligence (BI).
+- ⚙️ **Full-Stack & Web Architecture:** Desenvolvimento de aplicações web rápidas (React, Next.js, Python/FastAPI) e arquiteturas escaláveis.
+- 💡 **Mindset:** *"Dados sem análise são apenas ruído. Análise sem IA é limitada. Unir Engenharia, Dados e IA gera transformação real."*
 
 ---
 
@@ -36,7 +37,33 @@ Sou um **Engenheiro de Software** com foco em criar aplicações web de **alta p
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">Front-End & Creative Development</h3>
+      <h3 align="center">🤖 Inteligência Artificial & Data Science</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+        <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+        <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+        <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">📊 Engenharia & Análise de Dados</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+        <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
+        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+        <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🌐 Front-End & Creative Web</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
         <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
@@ -44,19 +71,16 @@ Sou um **Engenheiro de Software** com foco em criar aplicações web de **alta p
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
         <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
         <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">Back-End, DB & Tooling</h3>
+      <h3 align="center">⚙️ Back-End & DevOps / Cloud</h3>
       <p align="center">
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
         <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
         <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
         <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
         <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
       </p>
     </td>
