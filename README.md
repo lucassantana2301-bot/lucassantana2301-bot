@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="https://profile-counter.glitch.me/lucassantana2301-bot/count.svg" alt="Visitor Count" />
+  <img src="https://komarev.com/ghpvc/?username=lucassantana2301-bot&color=E11D48&style=for-the-badge&label=VISITAS+NO+PERFIL" alt="Contagem de Visitantes" />
 </p>
 
 ---
