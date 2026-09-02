@@ -25,29 +25,10 @@
 
 Sou um **Engenheiro de Software** especializado em **Engenharia de Dados**, **Análise de Dados** e **Inteligência Artificial**. Desenvolvo sistemas escaláveis, pipelines de dados inteligentes e interfaces modernas integradas a modelos de IA para transformar grandes volumes de informação em decisões estratégicas.
 
-```python
-class LucasSantana:
-    def __init__(self):
-        self.name = "Lucas Santana"
-        self.role = "Software & Data Engineer | AI Specialist"
-        self.location = "São Paulo, Brasil"
-        self.primary_languages = ["Python", "TypeScript", "SQL", "JavaScript"]
-        self.core_domains = ["Inteligência Artificial", "Engenharia de Dados", "Full-Stack Web"]
-        
-    def current_focus(self):
-        return [
-            "Pipelines ETL/ELT e Analytics de Alta Performance",
-            "Integração de Modelos Generativos (LLMs) & RAG",
-            "Aplicações Web Modernas com Next.js & FastAPI"
-        ]
-
-    def philosophy(self):
-        return "Dados sem análise são ruído. Análise sem IA é limitada. Unir Engenharia, Dados e IA gera transformação real."
-```
-
 - 🤖 **Inteligência Artificial & Data Science:** Construção e integração de modelos generativos (LLMs), Machine Learning, Visão Computacional e automação inteligente.
 - 📊 **Engenharia & Análise de Dados:** Criação de pipelines ETL/ELT robustos, modelagem de dados, análise preditiva e dashboards de Business Intelligence (BI).
-- ⚙️ **Full-Stack & Web Architecture:** Aplicações de alta performance com React, Next.js, Python e FastAPI.
+- ⚙️ **Full-Stack & Web Architecture:** Desenvolvimento de aplicações web rápidas (React, Next.js, Python/FastAPI) e arquiteturas de alta performance.
+- 💡 **Mindset:** *"Dados sem análise são apenas ruído. Análise sem IA é limitada. Unir Engenharia, Dados e IA gera transformação real."*
 
 ---
 
