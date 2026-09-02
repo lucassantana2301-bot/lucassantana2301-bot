@@ -23,12 +23,38 @@
 
 ## ⚡ Sobre Mim
 
-Sou um **Engenheiro de Software** especializado em **Engenharia de Dados**, **Análise de Dados** e **Inteligência Artificial**. Desenvolvo sistemas escaláveis, pipelines de dados inteligentes e interfaces modernas integradas a modelos de IA para transformar grandes volumes de informação em decisões estratégicas e produtos de alto valor.
+<table>
+  <tr>
+    <td width="25%" align="center" valign="middle">
+      <img src="https://github.com/lucassantana2301-bot.png" width="160" height="160" style="border-radius: 50%; border: 3px solid #E11D48;" alt="Lucas Santana Avatar" />
+      <br /><br />
+      <b>Lucas Santana</b><br />
+      <sub>Software & Data Engineer</sub>
+    </td>
+    <td width="75%" valign="top">
+      Sou um <b>Engenheiro de Software</b> especializado em <b>Engenharia de Dados</b>, <b>Análise de Dados</b> e <b>Inteligência Artificial</b>. Desenvolvo sistemas escaláveis, pipelines de dados inteligentes e interfaces modernas integradas a modelos de IA para transformar grandes volumes de informação em decisões estratégicas.
+      <br /><br />
+      <ul>
+        <li>🤖 <b>Inteligência Artificial & Data Science:</b> Construção e integração de modelos generativos (LLMs), Machine Learning, Visão Computacional e automação inteligente.</li>
+        <li>📊 <b>Engenharia & Análise de Dados:</b> Criação de pipelines ETL/ELT robustos, modelagem de dados, análise preditiva e dashboards de Business Intelligence (BI).</li>
+        <li>⚙️ <b>Full-Stack & Web Architecture:</b> Aplicações de alta performance com React, Next.js, Python e FastAPI.</li>
+        <li>💡 <b>Mindset:</b> <i>"Dados sem análise são apenas ruído. Análise sem IA é limitada. Unir Engenharia, Dados e IA gera transformação real."</i></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-- 🤖 **Inteligência Artificial & Data Science:** Construção e integração de modelos generativos (LLMs), Machine Learning, Visão Computacional e automação inteligente.
-- 📊 **Engenharia & Análise de Dados:** Criação de pipelines ETL/ELT robustos, modelagem de dados, análise preditiva e dashboards de Business Intelligence (BI).
-- ⚙️ **Full-Stack & Web Architecture:** Desenvolvimento de aplicações web rápidas (React, Next.js, Python/FastAPI) e arquiteturas escaláveis.
-- 💡 **Mindset:** *"Dados sem análise são apenas ruído. Análise sem IA é limitada. Unir Engenharia, Dados e IA gera transformação real."*
+---
+
+## 🎯 Pilares & Metodologias Profissionais
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Clean_Architecture-000000?style=for-the-badge&logo=codeforces&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data_Driven_Mindset-150458?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Agile_%2F_Scrum-0284C7?style=for-the-badge&logo=jira&logoColor=white" />
+  <img src="https://img.shields.io/badge/CI_%2F_CD_Pipelines-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/High_Performance_UI-E11D48?style=for-the-badge&logo=lightning&logoColor=white" />
+</p>
 
 ---
 
@@ -91,9 +117,18 @@ Sou um **Engenheiro de Software** especializado em **Engenharia de Dados**, **An
 
 ## 🚀 Projetos em Destaque
 
-| Projeto | Descrição | Tecnologias | Link |
-| :--- | :--- | :---: | :---: |
-| **🏭 JCS Metalúrgica** | Plataforma industrial interativa de altíssima performance com simulador 3D, cursor magnético e SEO otimizado. | `Next.js` `TypeScript` `Tailwind` `Three.js` | [Repositório](https://github.com/lucassantana2301-bot/jcs-METAL) |
+| Status | Projeto | Descrição | Tecnologias | Link |
+| :---: | :--- | :--- | :---: | :---: |
+| 🟢 `Produção` | **🏭 JCS Metalúrgica** | Plataforma industrial interativa com simulador 3D, cursor magnético e SEO otimizado. | `Next.js` `TypeScript` `Tailwind` `Three.js` | [Repositório](https://github.com/lucassantana2301-bot/jcs-METAL) |
+| 🤖 `Em Dev` | **📊 AI Data Insights** | Pipeline de análise preditiva e inteligência de dados orientada a LLMs. | `Python` `Pandas` `FastAPI` `OpenAI` | [Em Breve](#) |
+
+---
+
+## 📈 Gráfico de Atividade Fluida / Activity Wave
+
+<div align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=lucassantana2301-bot&theme=tokyo-night&area=true&hide_border=true" alt="Activity Graph" />
+</div>
 
 ---
 
@@ -131,4 +166,5 @@ Sou um **Engenheiro de Software** especializado em **Engenharia de Dados**, **An
 <div align="center">
   <sub>Desenvolvido com excelência por <b>Lucas Santana</b> • <a href="#-sobre-mim">Voltar ao topo ⬆️</a></sub>
 </div>
+
 
