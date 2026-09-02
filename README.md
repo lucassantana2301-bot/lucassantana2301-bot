@@ -23,26 +23,31 @@
 
 ## ⚡ Sobre Mim
 
-<table>
-  <tr>
-    <td width="25%" align="center" valign="middle">
-      <img src="https://github.com/lucassantana2301-bot.png" width="160" height="160" style="border-radius: 50%; border: 3px solid #E11D48;" alt="Lucas Santana Avatar" />
-      <br /><br />
-      <b>Lucas Santana</b><br />
-      <sub>Software & Data Engineer</sub>
-    </td>
-    <td width="75%" valign="top">
-      Sou um <b>Engenheiro de Software</b> especializado em <b>Engenharia de Dados</b>, <b>Análise de Dados</b> e <b>Inteligência Artificial</b>. Desenvolvo sistemas escaláveis, pipelines de dados inteligentes e interfaces modernas integradas a modelos de IA para transformar grandes volumes de informação em decisões estratégicas.
-      <br /><br />
-      <ul>
-        <li>🤖 <b>Inteligência Artificial & Data Science:</b> Construção e integração de modelos generativos (LLMs), Machine Learning, Visão Computacional e automação inteligente.</li>
-        <li>📊 <b>Engenharia & Análise de Dados:</b> Criação de pipelines ETL/ELT robustos, modelagem de dados, análise preditiva e dashboards de Business Intelligence (BI).</li>
-        <li>⚙️ <b>Full-Stack & Web Architecture:</b> Aplicações de alta performance com React, Next.js, Python e FastAPI.</li>
-        <li>💡 <b>Mindset:</b> <i>"Dados sem análise são apenas ruído. Análise sem IA é limitada. Unir Engenharia, Dados e IA gera transformação real."</i></li>
-      </ul>
-    </td>
-  </tr>
-</table>
+Sou um **Engenheiro de Software** especializado em **Engenharia de Dados**, **Análise de Dados** e **Inteligência Artificial**. Desenvolvo sistemas escaláveis, pipelines de dados inteligentes e interfaces modernas integradas a modelos de IA para transformar grandes volumes de informação em decisões estratégicas.
+
+```python
+class LucasSantana:
+    def __init__(self):
+        self.name = "Lucas Santana"
+        self.role = "Software & Data Engineer | AI Specialist"
+        self.location = "São Paulo, Brasil"
+        self.primary_languages = ["Python", "TypeScript", "SQL", "JavaScript"]
+        self.core_domains = ["Inteligência Artificial", "Engenharia de Dados", "Full-Stack Web"]
+        
+    def current_focus(self):
+        return [
+            "Pipelines ETL/ELT e Analytics de Alta Performance",
+            "Integração de Modelos Generativos (LLMs) & RAG",
+            "Aplicações Web Modernas com Next.js & FastAPI"
+        ]
+
+    def philosophy(self):
+        return "Dados sem análise são ruído. Análise sem IA é limitada. Unir Engenharia, Dados e IA gera transformação real."
+```
+
+- 🤖 **Inteligência Artificial & Data Science:** Construção e integração de modelos generativos (LLMs), Machine Learning, Visão Computacional e automação inteligente.
+- 📊 **Engenharia & Análise de Dados:** Criação de pipelines ETL/ELT robustos, modelagem de dados, análise preditiva e dashboards de Business Intelligence (BI).
+- ⚙️ **Full-Stack & Web Architecture:** Aplicações de alta performance com React, Next.js, Python e FastAPI.
 
 ---
 
@@ -166,5 +171,6 @@
 <div align="center">
   <sub>Desenvolvido com excelência por <b>Lucas Santana</b> • <a href="#-sobre-mim">Voltar ao topo ⬆️</a></sub>
 </div>
+
 
 
