@@ -37,9 +37,10 @@ jobs:
           LOG="activity/log.md"
           [ -f "$LOG" ] || printf '# Activity log\n\n' > "$LOG"
 
-          # Mínimo de 50 commits por dia, com variação de até +10
-          MIN_COMMITS=50
-          COUNT=$(( MIN_COMMITS + (RANDOM % 11) ))
+          # Quantidade sorteada a cada dia entre MIN_COMMITS e MAX_COMMITS
+          MIN_COMMITS=40
+          MAX_COMMITS=85
+          COUNT=$(( MIN_COMMITS + (RANDOM % (MAX_COMMITS - MIN_COMMITS + 1)) ))
           echo "Gerando $COUNT commit(s)"
 
           for i in $(seq 1 "$COUNT"); do
