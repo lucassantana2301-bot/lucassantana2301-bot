@@ -16,7 +16,7 @@ concurrency:
 jobs:
   commit:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,16 +37,19 @@ jobs:
           LOG="activity/log.md"
           [ -f "$LOG" ] || printf '# Activity log\n\n' > "$LOG"
 
-          COUNT=$(( (RANDOM % 4) + 1 ))
+          # Mínimo de 50 commits por dia, com variação de até +10
+          MIN_COMMITS=50
+          COUNT=$(( MIN_COMMITS + (RANDOM % 11) ))
           echo "Gerando $COUNT commit(s)"
 
           for i in $(seq 1 "$COUNT"); do
             TS=$(TZ=America/Sao_Paulo date '+%Y-%m-%d %H:%M:%S')
             echo "- ${TS} · entry ${i}/${COUNT}" >> "$LOG"
             git add "$LOG"
-            git commit -m "chore(activity): log ${TS}"
-            sleep 2
+            git commit -q -m "chore(activity): log ${TS} #${i}"
           done
+
+          echo "Commits gerados: $COUNT"
 
       - name: Push
         shell: bash
