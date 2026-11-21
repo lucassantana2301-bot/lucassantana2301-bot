@@ -2,8 +2,14 @@ name: Daily activity
 
 on:
   schedule:
-    # 12:17 UTC = 09:17 em São Paulo (minuto quebrado evita a fila do horário cheio)
-    - cron: "17 12 * * *"
+    # 05:00, 09:00, 11:30, 14:40, 15:55, 19:30, 22:50 (America/Sao_Paulo)
+    - cron: "0 8 * * *"
+    - cron: "0 12 * * *"
+    - cron: "30 14 * * *"
+    - cron: "40 17 * * *"
+    - cron: "55 18 * * *"
+    - cron: "30 22 * * *"
+    - cron: "50 1 * * *"
   workflow_dispatch:
 
 permissions:
@@ -38,8 +44,8 @@ jobs:
           [ -f "$LOG" ] || printf '# Activity log\n\n' > "$LOG"
 
           # Quantidade sorteada a cada dia entre MIN_COMMITS e MAX_COMMITS
-          MIN_COMMITS=15
-          MAX_COMMITS=30
+          MIN_COMMITS=2
+          MAX_COMMITS=5
           COUNT=$(( MIN_COMMITS + (RANDOM % (MAX_COMMITS - MIN_COMMITS + 1)) ))
           echo "Gerando $COUNT commit(s)"
 
