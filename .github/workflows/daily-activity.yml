@@ -1,0 +1,64 @@
+name: Daily activity
+
+on:
+  schedule:
+    # 12:17 UTC = 09:17 em São Paulo (minuto quebrado evita a fila do horário cheio)
+    - cron: "17 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-activity
+  cancel-in-progress: false
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Configure author
+        # O e-mail precisa ser um e-mail verificado da conta para o commit contar no gráfico
+        run: |
+          git config user.name "lucassantana2301-bot"
+          git config user.email "lucas.santana2301@gmail.com"
+
+      - name: Generate commits
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p activity
+          LOG="activity/log.md"
+          [ -f "$LOG" ] || printf '# Activity log\n\n' > "$LOG"
+
+          COUNT=$(( (RANDOM % 4) + 1 ))
+          echo "Gerando $COUNT commit(s)"
+
+          for i in $(seq 1 "$COUNT"); do
+            TS=$(TZ=America/Sao_Paulo date '+%Y-%m-%d %H:%M:%S')
+            echo "- ${TS} · entry ${i}/${COUNT}" >> "$LOG"
+            git add "$LOG"
+            git commit -m "chore(activity): log ${TS}"
+            sleep 2
+          done
+
+      - name: Push
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push falhou (tentativa $attempt), fazendo rebase..."
+            git pull --rebase origin main
+            sleep 5
+          done
+          echo "Push falhou após 3 tentativas" >&2
+          exit 1
