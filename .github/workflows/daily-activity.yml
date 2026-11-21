@@ -38,8 +38,8 @@ jobs:
           [ -f "$LOG" ] || printf '# Activity log\n\n' > "$LOG"
 
           # Quantidade sorteada a cada dia entre MIN_COMMITS e MAX_COMMITS
-          MIN_COMMITS=40
-          MAX_COMMITS=85
+          MIN_COMMITS=15
+          MAX_COMMITS=30
           COUNT=$(( MIN_COMMITS + (RANDOM % (MAX_COMMITS - MIN_COMMITS + 1)) ))
           echo "Gerando $COUNT commit(s)"
 
