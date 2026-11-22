@@ -112,6 +112,7 @@ Sou um **Engenheiro de Software** especializado em **Engenharia de Dados**, **An
 | Projeto | O que resolve | Stack |
 | :--- | :--- | :--- |
 | **[🛰️ FinOps Sentinel](https://github.com/lucassantana2301-bot/finops-sentinel)** | Painel FinOps multicloud (AWS + Azure) no padrão FOCUS 1.0: detecta anomalias de custo, prevê o fechamento do mês contra o orçamento de cada time e recomenda economia com o comando para executar. | `TypeScript` `Fastify` `React` `AWS` `Azure` `Docker` |
+| **[🔎 RAG Docs Assistant](https://github.com/lucassantana2301-bot/rag-docs-assistant)** | Perguntas sobre documentos internos com busca híbrida (BM25 + vetores), respostas sempre citadas, recusa quando a resposta não está nos documentos e avaliação de qualidade no CI. | `Python` `FastAPI` `SQLite FTS5` `LLMs` |
 | **[📈 B3 Portfolio Tracker](https://github.com/lucassantana2301-bot/b3-investe-)** | Carteira da B3 com preço médio, proventos e apuração mensal do Imposto de Renda, gerando o DARF pronto para pagar. | `TypeScript` `Python` `PostgreSQL` `MS Access` `React` |
 | **[👨‍👩‍👧 Família Cashflow](https://github.com/lucassantana2301-bot/familia-cashflow)** | Orçamento da família pelo método dos envelopes, com importação de extrato OFX/CSV que não duplica lançamentos. | `Rust` `axum` `PostgreSQL` `React` |
 | **[📡 Zabbix Observability](https://github.com/lucassantana2301-bot/-zabbix-avan-ado-)** | Monitoramento como código: Zabbix 7, Grafana e alertas no Telegram, com uma loja demo e botão de "caos" para provar que o alerta chega. | `Python` `Zabbix` `Grafana` `Docker` |
