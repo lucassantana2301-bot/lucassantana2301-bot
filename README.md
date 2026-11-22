@@ -1,170 +1,38 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&customColorList=10,12,20,30,50&height=230&section=header&text=Lucas%20Santana&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Header Banner" />
-</div>
+# Lucas Santana
 
-<h1 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=21&duration=3500&pause=1000&color=E11D48&center=true&vCenter=true&width=750&lines=Software+Engineer+%7C+Data+Engineer+%7C+AI+Specialist;Engenharia+de+Dados%2C+Intelig%C3%AAncia+Artificial+%26+Data+Analytics;Full-Stack+Web+%7C+Next.js%2C+Python+%26+Modelos+de+IA;Transformando+Dados+brutos+em+Insights+%26+Produtos+de+Alto+Impacto" alt="Typing Banner" />
-  </a>
-</h1>
+**Engenharia de Dados · Cloud & FinOps · IA aplicada** · Barueri, SP
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/lucas-santana-45316232a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:lucas.santana2301@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://wa.me/5511974327299"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
-  <a href="https://github.com/lucassantana2301-bot"><img src="https://img.shields.io/badge/Portfolio-101010?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
-</p>
+Construo plataformas de dados e produtos que vão para produção com testes, observabilidade e custo sob controle. Co-Founder & CTO na **Connect fit**, desenvolvedor na **Arklok Tecnologia** e estudante de tecnologia na **Estácio**.
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=lucassantana2301-bot&color=E11D48&style=for-the-badge&label=VISITAS+NO+PERFIL" alt="Contagem de Visitantes" />
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-santana-45316232a/)
+[![Email](https://img.shields.io/badge/lucas.santana2301@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:lucas.santana2301@gmail.com)
+[![Credly](https://img.shields.io/badge/Certificações-FF6B00?logo=credly&logoColor=white)](https://www.credly.com/users/lucas-santana.fa782343/badges)
 
----
+## Projetos em destaque
 
-## ⚡ Sobre Mim
+| Projeto | O que resolve | Destaques de engenharia |
+| :-- | :-- | :-- |
+| **[FinOps Sentinel](https://github.com/lucassantana2301-bot/finops-sentinel)** · [demo ao vivo](https://lucassantana2301-bot.github.io/finops-sentinel/) | Unifica o billing de AWS e Azure no padrão FOCUS, detecta anomalias de custo, prevê o fechamento do mês contra o orçamento e recomenda economia. | Detecção robusta (mediana/MAD com sazonalidade) · 79 testes · imagens no GHCR com SBOM e proveniência · TypeScript, Fastify, React |
+| **[RAG Docs Assistant](https://github.com/lucassantana2301-bot/rag-docs-assistant)** · [relatório de avaliação](https://lucassantana2301-bot.github.io/rag-docs-assistant/) | Responde perguntas sobre documentos internos sempre com citação, e recusa quando a resposta não está nos documentos. | Busca híbrida BM25 + vetores com RRF · golden set como portão de qualidade no CI · mypy strict · Python, FastAPI, SQLite FTS5 |
+| **[PRISM](https://github.com/lucassantana2301-bot/PRISM-Business-Intelligence-Platform)** | Plataforma de BI com motor semântico de métricas e perguntas em linguagem natural convertidas em SQL validado. | Validação de AST com allowlist · Next.js 16, Python, DuckDB |
+| **[B3 Portfolio Tracker](https://github.com/lucassantana2301-bot/b3-investe-)** | Carteira da B3 com preço médio, proventos e apuração mensal do IR, gerando o DARF. | Aritmética decimal exata · arquitetura hexagonal com PostgreSQL e MS Access · TypeScript, Python |
+| **[Família Cashflow](https://github.com/lucassantana2301-bot/familia-cashflow)** | Orçamento familiar por envelopes com importação de extrato OFX/CSV sem duplicar lançamentos. | Isolamento entre famílias garantido pelo banco (FK composta) · Argon2id · Rust, axum, sqlx |
+| **[Zabbix Observability](https://github.com/lucassantana2301-bot/-zabbix-avan-ado-)** | Monitoramento como código: YAML versionado aplicado no Zabbix 7 com `plan`/`apply` idempotente. | Teste ponta a ponta contra o Zabbix real no CI · Grafana · alertas no Telegram |
 
-Sou um **Engenheiro de Software** especializado em **Engenharia de Dados**, **Análise de Dados** e **Inteligência Artificial**. Desenvolvo sistemas escaláveis, pipelines de dados inteligentes e interfaces modernas integradas a modelos de IA para transformar grandes volumes de informação em decisões estratégicas.
+Todos têm CI, CHANGELOG, releases versionadas (SemVer) e roadmap aberto em issues.
 
-- 🤖 **Inteligência Artificial & Data Science:** Construção e integração de modelos generativos (LLMs), Machine Learning, Visão Computacional e automação inteligente.
-- 📊 **Engenharia & Análise de Dados:** Criação de pipelines ETL/ELT robustos, modelagem de dados, análise preditiva e dashboards de Business Intelligence (BI).
-- ⚙️ **Full-Stack & Web Architecture:** Desenvolvimento de aplicações web rápidas (React, Next.js, Python/FastAPI) e arquiteturas de alta performance.
-- 💼 **Atualmente:** Co-Founder & CTO na **Connect fit**, desenvolvedor na **Arklok Tecnologia** e cursando BTech na **Estácio**.
-- 💡 **Mindset:** *"Dados sem análise são apenas ruído. Análise sem IA é limitada. Unir Engenharia, Dados e IA gera transformação real."*
+## Como eu trabalho
 
----
+- **Qualidade como código:** testes automatizados em todo projeto, lint e tipagem estrita, cobertura publicada e portões de qualidade de dados no CI.
+- **Decisões documentadas:** ADRs para escolhas de arquitetura e READMEs que explicam o problema, os trade-offs e as limitações.
+- **Entrega rastreável:** Conventional Commits, PRs com descrição e release automática com notas, imagens assinadas e pacotes anexados.
+- **Segurança desde o início:** menor privilégio, segredos fora do código, CodeQL e Dependabot, e política de reporte de vulnerabilidades.
+- **Custo e operação:** FinOps, observabilidade e infraestrutura como código.
 
-## 🎯 Pilares & Metodologias Profissionais
+## Stack
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Clean_Architecture-000000?style=for-the-badge&logo=codeforces&logoColor=white" />
-  <img src="https://img.shields.io/badge/Data_Driven_Mindset-150458?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Agile_%2F_Scrum-0284C7?style=for-the-badge&logo=jira&logoColor=white" />
-  <img src="https://img.shields.io/badge/CI_%2F_CD_Pipelines-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/High_Performance_UI-E11D48?style=for-the-badge&logo=lightning&logoColor=white" />
-</p>
-
----
-
-## 🛠️ Tech Stack & Ferramentas
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🤖 Inteligência Artificial & Data Science</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-        <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-        <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-        <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-        <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">📊 Engenharia & Análise de Dados</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-        <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
-        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🌐 Front-End & Creative Web</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-        <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">⚙️ Back-End & DevOps / Cloud</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
-        <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-        <img src="https://img.shields.io/badge/Zabbix-D40000?style=for-the-badge&logo=zabbix&logoColor=white" />
-        <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-        <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
-## 🚀 Projetos em Destaque
-
-| Projeto | O que resolve | Stack |
-| :--- | :--- | :--- |
-| **[🛰️ FinOps Sentinel](https://github.com/lucassantana2301-bot/finops-sentinel)** | Painel FinOps multicloud (AWS + Azure) no padrão FOCUS 1.0: detecta anomalias de custo, prevê o fechamento do mês contra o orçamento de cada time e recomenda economia com o comando para executar. | `TypeScript` `Fastify` `React` `AWS` `Azure` `Docker` |
-| **[🔎 RAG Docs Assistant](https://github.com/lucassantana2301-bot/rag-docs-assistant)** | Perguntas sobre documentos internos com busca híbrida (BM25 + vetores), respostas sempre citadas, recusa quando a resposta não está nos documentos e avaliação de qualidade no CI. | `Python` `FastAPI` `SQLite FTS5` `LLMs` |
-| **[📈 B3 Portfolio Tracker](https://github.com/lucassantana2301-bot/b3-investe-)** | Carteira da B3 com preço médio, proventos e apuração mensal do Imposto de Renda, gerando o DARF pronto para pagar. | `TypeScript` `Python` `PostgreSQL` `MS Access` `React` |
-| **[👨‍👩‍👧 Família Cashflow](https://github.com/lucassantana2301-bot/familia-cashflow)** | Orçamento da família pelo método dos envelopes, com importação de extrato OFX/CSV que não duplica lançamentos. | `Rust` `axum` `PostgreSQL` `React` |
-| **[📡 Zabbix Observability](https://github.com/lucassantana2301-bot/-zabbix-avan-ado-)** | Monitoramento como código: Zabbix 7, Grafana e alertas no Telegram, com uma loja demo e botão de "caos" para provar que o alerta chega. | `Python` `Zabbix` `Grafana` `Docker` |
-| **[☁️ CloudQuest](https://github.com/lucassantana2301-bot/AWSsimula)** | Estudo para certificações AWS e Azure pelo guia oficial de cada exame, com ficha, aula, prática e chefe por domínio. | `TypeScript` `Vite` `Vercel` |
-| **[🔷 PRISM](https://github.com/lucassantana2301-bot/PRISM-Business-Intelligence-Platform)** | Plataforma de BI com motor semântico de métricas, perguntas em linguagem natural convertidas em SQL validado e detecção de anomalias. | `Next.js` `Python` `DuckDB` `FastAPI` |
-| **[🤖 LEGION](https://github.com/lucassantana2301-bot/LEGION)** | Plataforma multiagente de IA que planeja, implementa e valida software a partir de uma missão. | `Next.js` `TypeScript` `LLMs` |
-| **[🧠 ECHO](https://github.com/lucassantana2301-bot/ECHO)** | Gêmeo digital com memória semântica bitemporal e linhagem de evidências. | `Python` `Node.js` |
-
----
-
-## 📈 Gráfico de Atividade Fluida / Activity Wave
-
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=lucassantana2301-bot&theme=tokyo-night&area=true&hide_border=true" alt="Activity Graph" />
-</div>
-
----
-
-## 📊 Estatísticas do GitHub
-
-<div align="center">
-  <a href="https://github.com/lucassantana2301-bot">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucassantana2301-bot&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Lucas's GitHub Stats" />
-  </a>
-  <a href="https://github.com/lucassantana2301-bot">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucassantana2301-bot&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-  </a>
-</div>
-
-<br />
-
-<div align="center">
-  <a href="https://github.com/lucassantana2301-bot">
-    <img height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=lucassantana2301-bot&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-  </a>
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=lucassantana2301-bot&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
-  </a>
-</div>
-
----
-
-<div align="center">
-  <sub>Desenvolvido com excelência por <b>Lucas Santana</b> • <a href="#-sobre-mim">Voltar ao topo ⬆️</a></sub>
-</div>
-
-
-
+- **Dados:** Python · SQL · dbt · Dagster · DuckDB · PostgreSQL · Parquet · Power BI
+- **Back-end:** TypeScript · Node.js (Fastify) · FastAPI · Rust (axum)
+- **Front-end:** React · Next.js · Vite
+- **Cloud e DevOps:** AWS · Azure · Docker · Terraform · GitHub Actions · Zabbix · Grafana
+- **IA:** RAG, busca híbrida e avaliação de LLMs (OpenAI, Anthropic, Ollama)
